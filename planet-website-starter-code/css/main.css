@@ -72,7 +72,7 @@ h1 {
     
 }
 
-@media only screen and (min-width: 44em) {
+@media only screen and (min-width: 33.3333) {
     
     .nav {
         float: left;
@@ -83,9 +83,21 @@ h1 {
 
 @media only screen and (min-width: 44em) {
     
-    
-    
-    
-    
-    
+    h1 {
+        float: left;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+    }
+        
+        
+    .nav {
+        text-align: left;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        display: inline-block;
+        vertical-align: bottom;  
+    }
 }
