@@ -30,15 +30,19 @@ img {
   width: 100%;
 }
 
-h1 {
+.header {
     background-color: #ccc;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1 {
     text-align: center;
 }
 
 @media only screen and (min-width: 40em) {
     h1 {
         padding: 1em;
-        
     }
     
 }
