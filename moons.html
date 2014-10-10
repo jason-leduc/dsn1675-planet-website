@@ -4,90 +4,90 @@
   <meta charset="utf-8">
   <title>Planet Website</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/grids.css">
     <link href="css/typography.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-
+  <link href="css/main.css" rel="stylesheet">   
 </head>
+    
 <body>  
-    <header class="grid header">
-        
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
-        
-            <h1 class="peta title">Mars</h1>
-            
-        </div> 
-        
+   <header class="masthead">
+    <strong class="title peta">Mars</strong>
+    <nav>
+        <ul class="nav giga">
+            <li><a href="index.html">Planet</a></li>
+            <li><a href="moons.html">Moons</a></li>
+            <li><a href="exploration.html">Exploration</a></li>
+        </ul>
+    </nav>
+    </header>
+
+<main>
+  <h1>Moons</h1>
+
+  <div class="grid">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+
+      <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+          <img class="img-flex" src="images/phobos-moon.jpg" alt="">
+        </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+          <h2 class="giga">Mars' First Natural Satelite</h2>
+          <p>Phobos (systematic designation: Mars I) is the larger and closer of the two natural satellites of Mars.</p>
+        </div>
+      </div>
+
+      <dl class="mega">
+        <dt class="milli">Diameter (km)</dt>
+        <dd>27&nbsp;km</dd>
+        <dt class="milli">Mass (kg)</dt>
+        <dd>1.0659x10<sup>16</sup>&nbsp;km</dd>
+        <dt class="milli">Orbital period</dt>
+        <dd>0.31891023&nbsp;d</dd>
+      </dl>
+
+    </div>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2">
+
+      <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+          <img class="img-flex" src="images/deimos-moon.jpg" alt="">
+        </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+          <h2 class="giga">Mars' Second Moon</h2>
+          <p>Deimos is the smaller and outermore of the two natural satellites of the planet Mars with a mean radius of 6.2 km, the other being Phobos.</p>
+        </div>
+      </div>
+
+      <dl class="mega">
+        <dt class="milli">Diameter (km)</dt>
+        <dd>15&nbsp;km</dd>
+        <dt class="milli">Mass (kg)</dt>
+        <dd>1.4762x10<sup>15</sup>&nbsp;km</dd>
+        <dt class="milli">Orbital period</dt>
+        <dd>30.312&nbsp;h</dd>
+      </dl>
+
+    </div>
+  </div>
+</main>
+    
+<footer class="footer">
+    <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
+        <p>©2014 Mars Planetary Consortium</p> 
+    </div>
+    
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4">
         <nav>
             <ul class="nav">
-                <li class="mega"><a href="index.html">Planet</a></li>
-                <li class="mega"><a href="moons.html">Moons</a></li>
-                <li class="mega"><a href="#">Exploration</a></li>
-            </ul>
-            
+                <li><a href="index.html">Planet</a></li>
+                <li><a href="moons.html">Moons</a></li>
+                <li><a href="#">Exploration</a></li>
+            </ul> 
         </nav>
-        
-        </div>
-        
-    </header> 
-    
-<article>
-    
-        <h2>Moons</h2>
-
-        <div class="grid"> 
-    
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
-        <div class="grid">
-           <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3"> 
-        <img src="images/phobos-moon.jpg" alt="">
-        <h2 class="tera">Phobos</h2>
-        <p>Phobos (systematic designation: Mars I) is the larger and closer of the two natural satellites of Mars.</p>
         </div>    
-            
-            <div class="unit unti-xs-1 unti-s-1 unit-m-1 unit-l-1">    
-                <dl class="infolist">
-                            
-                    <dt class="milli">Diameter (km)</dt>
-                    <dd class="mega">27&nbsp;km</dd>
 
-                    <dt class="milli">Mass (kg)</dt>
-                    <dd class="mega">1.0659&times;10<sup>16</sup> kg</dd>
-
-                    <dt class="milli">Orbital period</dt>
-                    <dd class="mega">0.318&nbsp;910&nbsp;23&nbsp;d</dd>
-                            
-                </dl>
-            </div>
-        </div>
-    </div>  
-    
-    <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
-        <div class="grid">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
-                <img src="images/deimos-moon.jpg" alt="">
-            </div>
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-        <h2 class="tera">Deimos</h2>
-        <p>Deimos is the smaller and outermore of the two natural satellites of the planet Mars with a mean radius of 6.2 km, the other being Phobos.</p>
-        </div>  
-        <div class="unit unti-xs-1 unti-s-1 unit-m-1 unit-l-1">
-            <dl class="infolist">
-                            
-                <dt class="milli">Diameter (km)</dt>
-                <dd class="mega">15&nbsp;km</dd>
-
-                <dt class="milli">Mass (kg)</dt>
-                <dd class="mega">1.4762&times;10<sup>15</sup> kg</dd>
-
-                <dt class="milli">Orbital period</dt>
-                <dd class="mega">30.312&nbsp;h</dd>
-                            
-            </dl>
-        </div>
-    </div>
-</div>
-</div> 
+</footer>
 </article>        
 </body>
 </html>
