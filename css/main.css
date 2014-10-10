@@ -36,6 +36,12 @@ img {
     margin: 0;
 }
 
+.footer {
+    background-color: #ccc;
+    overflow: hidden;
+    margin: 0;
+}
+
 h1 {
     text-align: center;
 }
