@@ -78,25 +78,6 @@ body {
   text-align: center;
 }
 
-dl {
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-}
-
-dt {
-  clear: left;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 8em;
-}
-
-dd {
-  float: left;
-  margin: 0;
-  padding: 0;
-}
 
 @media only screen and (min-width: 25em) {
 
@@ -123,16 +104,79 @@ dd {
     html {
         font-size: 110%;
     }
+    
+    dl {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+    }
+
+    dt {
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 8em;
+    }
+
+    dd {
+  float: left;
+  margin: 0;
+  padding: 0;
+    }
+
 }
 
 @media only screen and (min-width: 90em) {   
     html {
         font-size: 120%;
+        }
+    
+    dl {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
     }
+
+    dt {
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 8em;
+    }
+
+    dd {
+  float: left;
+  margin: 0;
+  padding: 0;
+    }
+
 }
 
 @media only screen and (min-width: 120em) {
     html {
         font-size: 130%;
     }
+    
+    dl {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+    }
+
+    dt {
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 8em;
+    }
+
+    dd {
+  float: left;
+  margin: 0;
+  padding: 0;
+    }
+
 }    
