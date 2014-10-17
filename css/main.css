@@ -95,7 +95,7 @@ body {
 
   .title,
   .nav {
-    text-align: left;
+    text-align: left;   
   }
 
 }
@@ -124,6 +124,17 @@ body {
   margin: 0;
   padding: 0;
     }
+    
+    h4, .giga {
+        font-size: 1.2656rem;
+        line-height: 1.1852;
+        padding-left: 25px;
+}
+    
+    .push-none, .push-0 {
+        margin-bottom: 0;
+        padding-left: 25px;       
+}
 
 }
 
@@ -151,6 +162,17 @@ body {
   margin: 0;
   padding: 0;
     }
+    
+     h4, .giga {
+        font-size: 1.2656rem;
+        line-height: 1.1852;
+        padding-left: 25px;
+}
+    
+    .push-none, .push-0 {
+        margin-bottom: 0;
+        padding-left: 25px;       
+}
 
 }
 
@@ -178,5 +200,17 @@ body {
   margin: 0;
   padding: 0;
     }
+    
+    h4, .giga {
+        font-size: 1.2656rem;
+        line-height: 1.1852;
+        padding-left: 25px;
+}
+    
+    .push-none, .push-0 {
+        margin-bottom: 0;
+        padding-left: 25px;       
+}
+
 
 }    
