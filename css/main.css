@@ -102,22 +102,21 @@ h1 {
 
 @media only screen and (min-width: 44em) {
     
-    h1 {
-        float: left;
-        margin: 0 auto;
-        position: relative;
-        display: inline-block;
+h1 {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
     }
-        
-        
-    .nav {
-        text-align: left;
-        position: relative;
-        margin: 0;
-        padding: 0;
-        height: auto;
-        display: inline-block;
-        vertical-align: bottom;  
+            
+.nav {
+    text-align: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: inline-block;
+    vertical-align: bottom;  
     }
 }
 
@@ -412,3 +411,26 @@ img {
 }
 
 }
+
+@media only screen and (min-width: 60em) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {   
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    html {
+        font-size: 130%;
+    }
+}
+    
+    
+    
+    
+    
