@@ -15,6 +15,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -102,6 +126,13 @@ a:focus {
   text-align: center;
 }
 
+.discovery-title-extra {
+  display: none;
+}
+
+.copyright {
+  text-align: center;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -113,127 +144,75 @@ a:focus {
     display: inline-block;
   }
 
+  .nav-footer a,
+  .nav-footer a:link,
+  .nav-footer a:visited {
+    display: inline-block;
+  }
+
+  .nav-footer li::after {
+    content: "·";
+    display: inline-block;
+    width: 0.5em;
+
+    color: #666;
+    text-align: right;
+  }
+
+  .nav-footer li:last-child::after {
+    content: none;
+  }
+
+  .discovery-title-extra {
+    display: inline;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   .title,
   .nav {
-    text-align: left;   
+    text-align: left;
+  }
+
+  .discovery-text {
+    padding-right: 1.5rem;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .nav-footer {
+    text-align: right;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
-    html {
-        font-size: 110%;
-    }
-    
-    dl {
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-    }
 
-    dt {
-  clear: left;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 8em;
-    }
+  .moon-text {
+    padding-left: 1.5rem;
+  }
 
-    dd {
-  float: left;
-  margin: 0;
-  padding: 0;
-    }
-    
-    h4, .giga {
-        font-size: 1.2656rem;
-        line-height: 1.1852;
-        padding-left: 25px;
-}
-    
-    .push-none, .push-0 {
-        margin-bottom: 0;
-        padding-left: 25px;       
-}
+  .stats {
+    overflow: hidden;
+  }
+
+  .stats > dt {
+    clear: left;
+    float: left;
+    margin-right: 0.75rem;
+    width: 11em;
+  }
+
+  .stats > dd {
+    float: left;
+  }
+
+  .discovery-text {
+    padding-left: 1.5rem;
+  }
 
 }
-
-@media only screen and (min-width: 90em) {   
-    html {
-        font-size: 120%;
-        }
-    
-    dl {
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-    }
-
-    dt {
-  clear: left;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 8em;
-    }
-
-    dd {
-  float: left;
-  margin: 0;
-  padding: 0;
-    }
-    
-     h4, .giga {
-        font-size: 1.2656rem;
-        line-height: 1.1852;
-        padding-left: 25px;
-}
-    
-    .push-none, .push-0 {
-        margin-bottom: 0;
-        padding-left: 25px;       
-}
-
-}
-
-@media only screen and (min-width: 120em) {
-    html {
-        font-size: 130%;
-    }
-    
-    dl {
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-    }
-
-    dt {
-  clear: left;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 8em;
-    }
-
-    dd {
-  float: left;
-  margin: 0;
-  padding: 0;
-    }
-    
-    h4, .giga {
-        font-size: 1.2656rem;
-        line-height: 1.1852;
-        padding-left: 25px;
-}
-    
-    .push-none, .push-0 {
-        margin-bottom: 0;
-        padding-left: 25px;       
-}
-
-}    
