@@ -48,6 +48,85 @@ body {
   padding: 0;
 }
 
+label {
+    display: block;
+}
+
+/* form design */
+
+label {
+    float: none;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+.radio {
+    display: block;
+    padding: 0 1em 0 0;
+}
+
+input + label {
+    display: inline-block;
+}
+
+
+.submit {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: #eeeeee;   
+}
+
+button:active {
+    background-color: #d2d2d2;
+}
+
+button:focus {
+    outline: 3px solid #000;
+}
+
+.field {
+    display: block;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 45em;
+}
+
+.field:focus {
+    outline: 3px solid #000;
+}
+
+.input-field{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 45em;
+}
+textarea {
+    display: block;
+    margin: 0 auto;
+    resize: none;
+    width: 100%;
+    height: 14em;
+    border: 1px solid #ccc;
+}
+
+textarea:focus {
+    outline: 3px solid #000;
+}
+
+/* form design */
+
 a:focus {
  outline: 3px solid #000;   
 }
