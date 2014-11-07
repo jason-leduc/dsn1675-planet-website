@@ -46,6 +46,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+
 }
 
 a:hover,
@@ -108,7 +109,7 @@ a:focus {
 .nav a:visited {
   display: block;
 
-  color: #CC0000;
+  color: #990000;
   text-decoration: none;
 }
 
@@ -118,17 +119,17 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #CC0000;
+  background-color: #FF4747;
 
   color: #fff;
 }
 
 .section-dark {
-  background-color: #FF6600;
+  background-color: #D63333;
 }
 
 .section-mid {
-  background-color: #FF9900;
+  background-color: #DE5C5C;
 }
 
 .section {
